@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
+
+  <title>DCC news: Matérias</title>
+  
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <div class="top">
+    <img src="img/icone.png" >
+    <ul>
+      
+      <li><a href="index.html">Matérias</a></li>
+      <li><a href="equipe.html">Equipe</a></li>
+      
+    </ul>
+  </div>
+  <div class="space">
+    
+    <h1>Materias: </h1>
+    
+    <div class="rect" onclick="notice(0);">
+      <h1>Tempestade com ventos e granizo deixa Quiririm sem energia elétrica.</h1>
+      <p>Uma inesperada e intensa chuva de granizo abateu-se sobre a pacata cidade... <i style="font-size: 15px;opacity: 0.7;">(Clique pra ver mais)</i></p>
+    </div>
+    
+    
+  </div>
+  <div class="fim" >
+    
+    <h5> © Todos os direitos reservados a DCC news</h5>
+     
+   </div>
+  <script>
+    
+    function notice(id){
+        window.location.href=`noticias/id${id}.html`
+    }
+    
+    
+    
+    
+  </script>
+</body>
+</html>
